@@ -4,16 +4,16 @@
 
 This project is written in HTML, CSS and Javascript that helps Jens finish the tasks.
 
-## Result
+## Result:
 
 ![img](./images/project-1.png)
 
 
 
-## Code
-### Function
+## Code:
+### Functions
 #### To add task
- `function addTask(){
+ ` function addTask(){
     if(inputBox.value === ""){
         alert("Please Enter a Task");
     }
@@ -28,13 +28,12 @@ This project is written in HTML, CSS and Javascript that helps Jens finish the t
     inputBox.value = "";
     saveData();
 
-}
-`
+}`
 
-## Live Demo
+## Live Demo:
 
 you can view live demo from [here](https://mahmoud128.github.io/Todo-list/)
 
-## Accounts
+## Accounts:
 ### Linkedin [Account](https://www.linkedin.com/in/mahmoud-khaleel-78932a1b5/)
 ### LeetCode [Account](https://leetcode.com/mahmoud_khaleel/)
