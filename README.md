@@ -6,7 +6,7 @@ This project is written in HTML, CSS and Javascript that helps Jens finish the t
 
 ## Final Result
 
-![img](./images/project.png)
+![img](./images/project-1.png)
 
 ## Live Demo
 
