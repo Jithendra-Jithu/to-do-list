@@ -12,7 +12,7 @@ This project is written in HTML, CSS and Javascript that helps Jens finish the t
 
 ## Code:
 ### Functions
-#### To add task
+#### To add task `addTask()`
 ##### 1- First check if the input is empty or not, if empty,the window out alert, if not empty, the window will add a task
  ```
  function addTask(){
