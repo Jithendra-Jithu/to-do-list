@@ -12,8 +12,8 @@ This project is written in HTML, CSS and Javascript that helps Jens finish the t
 
 ## Code:
 ### Functions
-#### To add task `addTask()`
-##### 1- First check if the input is empty or not, if empty,the window out alert, if not empty, the window will add a task
+#### 1- To add task `addTask()`
+##### First check if the input is empty or not, if empty,the window out alert, if not empty, the window will add a task
  ```
  function addTask(){
     if(inputBox.value === ""){
@@ -30,6 +30,20 @@ This project is written in HTML, CSS and Javascript that helps Jens finish the t
     inputBox.value = "";
     saveData();
 
+}
+```
+#### 2- To save data in local storage `saveData()`
+##### This function is used to save user data to the page's local storage
+```
+ function saveData(){
+     localStorage.setItem("data", listContainer.innerHTML);
+ }
+```
+#### 3- To show data from local storage `showData()`
+##### This function is used to show user data from the page's local storage
+```
+ function showData(){
+    listContainer.innerHTML = localStorage.getItem("data");
 }
 ```
 
