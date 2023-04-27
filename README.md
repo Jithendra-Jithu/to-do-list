@@ -2,7 +2,7 @@
 
 ![100%](https://progress-bar.dev/100/?title=Done)
 
-This project is written in HTML, CSS and Javascript that helps Jens finish the tasks.
+This project is written in HTML, CSS and Javascript that help me to finish the tasks.
 
 ## Result:
 
